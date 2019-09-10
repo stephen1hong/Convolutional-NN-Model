@@ -1,7 +1,8 @@
 # Convolutional-ResNet-Models
-Implement the basic building ResNets (50 layers)
-*Zero-padding pads the input with a pad of (3,3)
 
+Implement the basic building ResNets (50 layers)
+
+*Zero-padding pads the input with a pad of (3,3)
 * The 2D Convolution has 64 filters of shape (7,7) and uses a stride of (2,2). Its name is "conv1".
 BatchNorm is applied to the channels axis of the input.
 MaxPooling uses a (3,3) window and a (2,2) stride.
